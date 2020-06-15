@@ -4,4 +4,4 @@ COPY . retinanet/
 RUN pip install --no-cache-dir -e retinanet/
 RUN pip install tensorboardX
 
-ENTRYPOINT ["bash", "/my-workspace/train_retinanet.sh"]
+ENTRYPOINT ["bash", "/my-workspace/evaluate_retinanet.sh"]
