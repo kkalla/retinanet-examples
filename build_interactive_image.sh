@@ -1,1 +1,1 @@
-sudo docker build -t odtk:latest -f dockerfiles/Dockerfile .
+sudo docker build -t odtk:coco -f dockerfiles/Dockerfile .

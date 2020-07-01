@@ -1,0 +1,1 @@
+sudo docker build -f dockerfiles/Dockerfile.eval -t odtk:eval .
